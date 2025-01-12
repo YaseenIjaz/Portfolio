@@ -11,28 +11,28 @@
   <header>
     <nav class="navbar">
       <div class="container">
-        <h1 class="logo">Yaseen Ijaz</h1>
+        <div class="logo">My Portfolio</div>
+        <button class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li>
-            
-          </li>
-          <li>
-            
-          </li>
         </ul>
         <div class="social-logo-container">
-            <a href="https://github.com/YaseenIjaz" target="_blank">
-                <img class="social-logo" width="52" height="52" src="https://img.icons8.com/ios-glyphs/60/github.png">
-            </a>
-
-            <a href="https://www.linkedin.com/in/yaseenijaz78/" target="_blank">
-                <img class="social-logo" width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin-circled.png" alt="linkedin-circled"/>
-            </a>
+        <a href="https://github.com/YaseenIjaz" target="_blank">
+            <img class="social-logo" width="50" height="50" src="https://img.icons8.com/ios-glyphs/60/github.png">
+        </a>
+  
+        <a href="https://www.linkedin.com/in/yaseenijaz78/" target="_blank">
+            <img class="social-logo" width="50" height="50" src="https://img.icons8.com/fluency/48/linkedin-circled.png" alt="linkedin-circled"/>
+        </a>
         </div>
       </div>
     </nav>
@@ -42,7 +42,9 @@
     <div class="container">
       <h2>Welcome to My Portfolio</h2>
       <p>I am <span class="highlight">Yaseen Ijaz</span>, a passionate Software Developer.</p>
-      <a href="#projects" class="btn">Check My Resume</a>
+      <a href="#projects" class="primary-button">View My Work</a>
+
+      
     </div>
   </section>
 
@@ -77,23 +79,56 @@
         <div class="project">
           <h3>Amazon Clone</h3>
           <p>An e-commerce web application with dynamic search and cart functionalities, built using JavaScript and localStorage.</p>
-          <p><strong>Tools Used:</strong> HTML, CSS, JavaScript, DayJS</p>
+          <p><strong>Tools Used:</strong> HTML, CSS, JavaScript, DayJS, Git, Github</p>
           <a href="https://yaseenijaz.github.io/Amazon-Project/" class="btn" target="_blank">View Project</a>
         </div>
         <div class="project">
-          <h3>Customer Conversion Prediction</h3>
-          <p>A machine learning project to predict customer subscription using Python and Streamlit.</p>
-          <p><strong>Tools Used:</strong> Python, Pandas, Numpy, Matplotlib, Seaborn</p>
-          <a href="https://customer-conversion-predicton.onrender.com/" class="btn" target="_blank">View Project</a>
+          <h3>Rock Paper Scissor Game</h3>
+          <p>A simple Rock-Paper-Scissors game where players compete against a computer, using randomized choices and clear logic to determine the winner.</p>
+          <p><strong>Tools Used:</strong> HTML, CSS, JavaScript, Git, Github</p>
+          <a href="https://yaseenijaz.github.io/Rock-Paper-Scissor/" class="btn" target="_blank">View Project</a>
         </div>
+
         <div class="project">
           <h3>YouTube API Project</h3>
           <p>Used YouTube API to retrieve data, store it in SQL and MongoDB, and display results in Streamlit.</p>
           <p><strong>Tools Used:</strong> Python, SQL, MongoDB, Streamlit</p>
           <a href="https://github.com/YaseenIjaz/Youtube_project" class="btn" target="_blank">View Project</a>
         </div>
+
+        <div class="more-projects hidden">
+          <div class="project">
+            <h3>To Do List</h3>
+            <p>A basic To-Do List that allows users to add, edit, and delete tasks.</p>
+            <p>Tools: HTML, CSS, JavaScript, Github</p>
+            <a href="https://yaseenijaz.github.io/To-Do-List/" target="_blank">View Live</a>
+          </div>
+          <div class="project">
+            <h3>My Web Tools</h3>
+            <p>A responsive web application featuring a calculator and unit converter,</p>
+            <p>Tools: HTML, CSS, Bootstrap, JavaScript</p>
+            <a href="https://yaseenijaz.github.io/Calculator/" target="_blank">View Live</a>
+          </div>
+          <div class="project">
+            <h3>Customer Conversion Prediction</h3>
+            <p>A machine learning project to predict customer subscription using Python and Streamlit.</p>
+            <p><strong>Tools Used:</strong> Python, Pandas, Numpy, Matplotlib, Seaborn</p>
+            <a href="https://customer-conversion-predicton.onrender.com/" class="btn" target="_blank">View Project</a>
+          </div>
+          <!-- Add more projects as needed -->
+        </div>
+      <!-- View More Button -->
+      <div id="viewMoreBtn" class="arrow"></div>
       </div>
+      </div>
+      
     </div>
+  </section>
+
+  <section id="resume" class="resume-section">
+    <h2>View My Resume</h2>
+    <p>Download or view my resume to learn more about my skills and experience.</p>
+    <a href="https://drive.google.com/file/d/1cQt3Ie657i3Z6XOfBSH0p0gbpkk-JguG/view?usp=sharing" class="btn" target="_blank">View Resume</a>
   </section>
 
   <section id="contact" class="contact">
@@ -110,4 +145,5 @@
     </div>
   </footer>
 </body>
+<script src="portfolio.js"></script>
 </html>
